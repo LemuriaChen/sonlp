@@ -1,13 +1,16 @@
 
 import setuptools
 
+with open("README.md", "r") as f:
+    long_description = f.read()
+
 
 setuptools.setup(
     name='sonlp',
     version='1.0.0',
     description='A simple toolkit for natural language processing',
-    setup_requires=['setuptools-markdown'],
-    long_description='README.md',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author='dandanlemuria',
     author_email='18110980003@fudan.edu.cn',
     url='https://github.com/LemuriaChen/sonlp',
