@@ -33,7 +33,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'click==7.0',
-        'lxml==4.4.1',
+        'lxml==4.6.2',
         'prettytable==0.7.2',
     ],
     scripts=["bin/abbr"],
